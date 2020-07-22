@@ -11,7 +11,7 @@ As an added feature, I added the ability to copy the generated password to the c
 ![alt-text](readme.GIF)
 
 ## Deployed Site Link
-Here's the link to my app:  
+Here's the link to my app:  https://jen6one9.github.io/that-password-generator/
 
 ## Acknowledgements
 This successful launch of this application was made possible through the support of my tutor and cohort peers. 

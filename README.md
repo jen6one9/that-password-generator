@@ -8,7 +8,7 @@ It is designed to feature a clean and polished user interface and be responsive,
 As an added feature, I added the ability to copy the generated password to the clipboard. In addition, I worked to ensure the user is prompted with proper error handling messages if the user did not respond within the applicable required parameters. 
 
 ## Preview
-
+![alt-text](readme.GIF)
 
 ## Deployed Site Link
 Here's the link to my app:  

@@ -18,18 +18,18 @@ generateBtn.addEventListener("click",function(){
   }
 })
 function getUserPrompt(characters){
-  var upper = confirm("Generate your password with upper-case letters?   (y/n)")
+  var upper = confirm("Generate your password with upper-case letters?")
   console.log(upper);
   
   
-  var lower = confirm("How about with some lower-case letters?   (y/n)")
+  var lower = confirm("How about with some lower-case letters?")
   console.log(lower);
   
   
-  var numeric = confirm("Would you like some numeric values?   (y/n)")
+  var numeric = confirm("Would you like some numeric values?")
   console.log(numeric);
   
-  var symbols = confirm("Lastly, shall we include symbols/special characters?   (y/n)")
+  var symbols = confirm("Lastly, shall we include symbols/special characters?")
   console.log(symbols);
   userchoice = []
   if(upper){

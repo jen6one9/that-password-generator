@@ -59,44 +59,27 @@ password+=userchoice[index]
 
     }
     console.log(password)
+    var textbox=document.getElementById("password")
+    textbox.innerText=password
   }
 }
 
 
-//what are my valid values? 
-//var upper = "A,B,C,D,E,F,G"
-//console.log(upperString);
-
-//var lower = "h,i,j,k,l,m,n,o,p" 
-//console.log(lowerCase);
-
-//var numeric = "1,2,3,4,5,6,7,8,9" 
-//console.log(numeric);
-
-//var specialChar = "#$&@%!^$)(" 
-//console.log(specialCase);
-
-//}
-
-
-//Prompts that the user will have to respond to. // Creates a prompt box which takes in text input.
 
 
 
 
 
-//Generate the secure password
-//function generatethatpassword() {
-  
-  //if (lower) {
-    //for (let i = 0; i < 2; i++) {
-      //password.push(lowercase[ lowercase.length)]);
- 
+
+
+
+//var clearBtn=document.getElementById("")
+
  
 
   //user will copy function to clipword
-  function copyclip() {
-    document.getElementById("display").select();
+  function copyPassword() {
+    document.getElementById("password").select();
 
     document.execCommand("copy");
 

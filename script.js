@@ -49,11 +49,16 @@ function getUserPrompt(characters){
   }
   else{
   console.log(userchoice)
+  let password = "";
     for(let i=1; i<=characters; i++){
+var index = Math.floor(Math.random() * userchoice.length) 
+password+=userchoice[index]
+  
     
   
 
     }
+    console.log(password)
   }
 }
 
@@ -82,10 +87,10 @@ function getUserPrompt(characters){
 
 //Generate the secure password
 //function generatethatpassword() {
-  //let password = [];
+  
   //if (lower) {
     //for (let i = 0; i < 2; i++) {
-      //password.push(lowercase[Math.floor(Math.random() * lowercase.length)]);
+      //password.push(lowercase[ lowercase.length)]);
  
  
 

@@ -7,6 +7,7 @@ const numbers = '0123456789'; // 10 long. 0-9.
 const special = '!?#$%&()*-=,./:;<>@[]^{}~'; // 26 long. 0-25.
 var userchoice = []
 
+//These prompt must be triggered after the button is clicked!
 generateBtn.addEventListener("click", function () {
   var characters = prompt("Select desired password length   (8 min - 128 max characters)", "");
   console.log(characters);

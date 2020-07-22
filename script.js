@@ -14,10 +14,10 @@ generateBtn.addEventListener("click",function(){
     alert("Sorry. Passwords are a minimum of 8 characters and maximum of 128 characters.")
   }
   else {
-    getUserPrompt()
+    getUserPrompt(parseInt(characters))
   }
 })
-function getUserPrompt(){
+function getUserPrompt(characters){
   var upper = confirm("Generate your password with upper-case letters?   (y/n)")
   console.log(upper);
   
@@ -31,6 +31,30 @@ function getUserPrompt(){
   
   var symbols = confirm("Lastly, shall we include symbols/special characters?   (y/n)")
   console.log(symbols);
+  userchoice = []
+  if(upper){
+    userchoice+= uppercase
+  }
+  if(lower){
+    userchoice+= lowercase
+  }
+  if(numeric){
+    userchoice+= numbers
+  }
+  if(symbols){
+    userchoice+= special
+  }
+  if(!upper && !lower && !numeric && !symbols) {
+    alert("Sorry. You must have atleast one selection.")
+  }
+  else{
+  console.log(userchoice)
+    for(let i=1; i<=characters; i++){
+    
+  
+
+    }
+  }
 }
 
 

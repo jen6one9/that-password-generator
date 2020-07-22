@@ -22,14 +22,14 @@ function getUserPrompt(characters){
   console.log(upper);
   
   
-  var lower = confirm("How about with some lower-case letters?")
+  var lower = confirm("Generate your password with some lower-case letters?")
   console.log(lower);
   
   
-  var numeric = confirm("Would you like some numeric values?")
+  var numeric = confirm("Generate your password with some numeric values?")
   console.log(numeric);
   
-  var symbols = confirm("Lastly, shall we include symbols/special characters?")
+  var symbols = confirm("Lastly, would you like your password to include symbols/special characters?")
   console.log(symbols);
   userchoice = []
   if(upper){
